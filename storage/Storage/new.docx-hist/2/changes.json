@@ -1,0 +1,12 @@
+{
+    "serverVersion": "7.5.1",
+    "changes": [
+        {
+            "created": "2023-12-06 10:56:42",
+            "user": {
+                "id": "uid-1",
+                "name": "John Smith"
+            }
+        }
+    ]
+}

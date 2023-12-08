@@ -1,0 +1,317 @@
+Track START
+   _GET params: a:2:{s:8:"fileName";s:8:"new.docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:9:"398479138";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:244:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIzOTg0NzkxMzgiLCJzdGF0dXMiOjEsInVzZXJzIjpbInVpZC0xIl0sImFjdGlvbnMiOlt7InR5cGUiOjEsInVzZXJpZCI6InVpZC0xIn1dLCJpYXQiOjE3MDE4NTQ2MjMsImV4cCI6MTcwMTg1NDkyM30.AF93QhfAOchjZMYd6taA10xkoXTnvB2uaCCw1MLbU20";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:8:"new.docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:9:"398479138";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:244:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIzOTg0NzkxMzgiLCJzdGF0dXMiOjEsInVzZXJzIjpbInVpZC0xIl0sImFjdGlvbnMiOlt7InR5cGUiOjEsInVzZXJpZCI6InVpZC0xIn1dLCJpYXQiOjE3MDE4NTUxNjYsImV4cCI6MTcwMTg1NTQ2Nn0.JDxlhMrEXjpFq0DuXlhzucZA-ZECkDXBVBWCQMYzjq4";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+SaveAs: Undefined array key "user"
+   CommandRequest rename: s:29:"{"key":"398479138","error":0}";
+Track START
+   _GET params: a:2:{s:8:"fileName";s:8:"new.docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":11:{s:3:"key";s:9:"398479138";s:6:"status";i:2;s:3:"url";s:142:"http://192.168.1.35/cache/files/data/398479138_3673/output.docx/output.docx?md5=_39G6auZQH7V2_AXYq6z4g&expires=1701857587&filename=output.docx";s:10:"changesurl";s:142:"http://192.168.1.35/cache/files/data/398479138_3673/changes.zip/changes.zip?md5=ACEbbaNDtbLcbZ7VkJDOWw&expires=1701857587&filename=changes.zip";s:7:"history";O:8:"stdClass":2:{s:13:"serverVersion";s:5:"7.5.1";s:7:"changes";a:1:{i:0;O:8:"stdClass":2:{s:7:"created";s:19:"2023-12-06 09:32:56";s:4:"user";O:8:"stdClass":2:{s:2:"id";s:5:"uid-1";s:4:"name";s:10:"John Smith";}}}}s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:8:"lastsave";s:24:"2023-12-06T09:32:56.000Z";s:11:"notmodified";b:0;s:5:"token";s:923:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIzOTg0NzkxMzgiLCJzdGF0dXMiOjIsInVybCI6Imh0dHA6Ly8xOTIuMTY4LjEuMzUvY2FjaGUvZmlsZXMvZGF0YS8zOTg0NzkxMzhfMzY3My9vdXRwdXQuZG9jeC9vdXRwdXQuZG9jeD9tZDU9XzM5RzZhdVpRSDdWMl9BWFlxNno0ZyZleHBpcmVzPTE3MDE4NTc1ODcmZmlsZW5hbWU9b3V0cHV0LmRvY3giLCJjaGFuZ2VzdXJsIjoiaHR0cDovLzE5Mi4xNjguMS4zNS9jYWNoZS9maWxlcy9kYXRhLzM5ODQ3OTEzOF8zNjczL2NoYW5nZXMuemlwL2NoYW5nZXMuemlwP21kNT1BQ0ViYmFORHRiTGNiWjdWa0pET1d3JmV4cGlyZXM9MTcwMTg1NzU4NyZmaWxlbmFtZT1jaGFuZ2VzLnppcCIsImhpc3RvcnkiOnsic2VydmVyVmVyc2lvbiI6IjcuNS4xIiwiY2hhbmdlcyI6W3siY3JlYXRlZCI6IjIwMjMtMTItMDYgMDk6MzI6NTYiLCJ1c2VyIjp7ImlkIjoidWlkLTEiLCJuYW1lIjoiSm9obiBTbWl0aCJ9fV19LCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjowLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwibGFzdHNhdmUiOiIyMDIzLTEyLTA2VDA5OjMyOjU2LjAwMFoiLCJub3Rtb2RpZmllZCI6ZmFsc2UsImZpbGV0eXBlIjoiZG9jeCIsImlhdCI6MTcwMTg1NjY4NiwiZXhwIjoxNzAxODU2OTg2fQ.gSHHngjukYi2_7deVdBTg7AtZpxBBmPqtK9H62y6Hgs";s:8:"filetype";s:4:"docx";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 2
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:8:"new.docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:9:"398479138";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:244:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIzOTg0NzkxMzgiLCJzdGF0dXMiOjEsInVzZXJzIjpbInVpZC0xIl0sImFjdGlvbnMiOlt7InR5cGUiOjEsInVzZXJpZCI6InVpZC0xIn1dLCJpYXQiOjE3MDE4NTY3ODUsImV4cCI6MTcwMTg1NzA4NX0.2k1s7nK1QqcJiwR7RHySL_grg23_MztaaCaUbwEri6Q";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:8:"new.docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":4:{s:3:"key";s:9:"398479138";s:6:"status";i:4;s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:220:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIzOTg0NzkxMzgiLCJzdGF0dXMiOjQsImFjdGlvbnMiOlt7InR5cGUiOjAsInVzZXJpZCI6InVpZC0xIn1dLCJpYXQiOjE3MDE4NTY3ODgsImV4cCI6MTcwMTg1NzA4OH0.NEvhBN1n8-jwZguQw8OzzD-wTOyxdn98WI6gaMTmgdM";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 4
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:8:"new.docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"4215029195";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiI0MjE1MDI5MTk1Iiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjoxLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODU2Nzg5LCJleHAiOjE3MDE4NTcwODl9.dUdimVmX2j8ixdmSaX8eAlm5EWNYsy9mxqjWRCp3tng";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:8:"new.docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"4215029195";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiI0MjE1MDI5MTk1Iiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjoxLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODU4MDYyLCJleHAiOjE3MDE4NTgzNjJ9.eWQwFG6z1sIP1qxsIwYGdBe_bEqCZBDLHDA1ZhMBM_I";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:8:"new.docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"4215029195";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiI0MjE1MDI5MTk1Iiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjowLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODU5MjY3LCJleHAiOjE3MDE4NTk1Njd9.lNLmE_5L4oZ9GNMk_WePGGV7mczM1xjLOgA6FeMvotI";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:8:"new.docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"4215029195";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiI0MjE1MDI5MTk1Iiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjoxLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODU5OTIwLCJleHAiOjE3MDE4NjAyMjB9.HsarrxZVoOw0wIGeMhUJBeqZ_YeM_N0HaHyTzCmDC4o";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:8:"new.docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"4215029195";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiI0MjE1MDI5MTk1Iiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjowLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODYwMDczLCJleHAiOjE3MDE4NjAzNzN9.0SeoUbOpvOc0JhwRyKNlVNNXhXcvJanJfnWLmDnL9qA";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:8:"new.docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"4215029195";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiI0MjE1MDI5MTk1Iiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjoxLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODYwMDc4LCJleHAiOjE3MDE4NjAzNzh9.tvLk1pHXCVCW3IXfcfMh9zGB4-6CzlYj9cIvrxf8xuI";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:8:"new.docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"4215029195";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiI0MjE1MDI5MTk1Iiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjowLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODYwMTIxLCJleHAiOjE3MDE4NjA0MjF9.b5g-sHxBNPmH0M5gQ0hoZqnOFJidpERhc20JT6DW9_8";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:8:"new.docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"4215029195";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiI0MjE1MDI5MTk1Iiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjoxLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODYwMjAwLCJleHAiOjE3MDE4NjA1MDB9.CCjkdjk3wlukJLDK3EbG37iJLAZm1lXfye6f1KY88jw";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (3).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"3762725381";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIzNzYyNzI1MzgxIiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjoxLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODYwNjY4LCJleHAiOjE3MDE4NjA5Njh9.6edFckGfFPuPo6eaUosj99s3bHB4uXB127nDQkm7kQ8";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (3).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":4:{s:3:"key";s:10:"3762725381";s:6:"status";i:4;s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:221:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIzNzYyNzI1MzgxIiwic3RhdHVzIjo0LCJhY3Rpb25zIjpbeyJ0eXBlIjowLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODYwNjg4LCJleHAiOjE3MDE4NjA5ODh9.MRFAUoOor3tQtfzSxAb6UTG08DNnLerokjKvSokMHww";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 4
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (3).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"3762725381";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIzNzYyNzI1MzgxIiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjoxLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODYwNzM2LCJleHAiOjE3MDE4NjEwMzZ9.T2iAuR13jED097D_j8V9Xl9_8gqg8x7A3Ds-svbnDzc";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (3).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"3762725381";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIzNzYyNzI1MzgxIiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjoxLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODYwODMyLCJleHAiOjE3MDE4NjExMzJ9.rOKMXIjmdpcqk_W076hnyqtB4jaYFcOr8b2Lqh24fvg";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (3).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"3762725381";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIzNzYyNzI1MzgxIiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjowLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODYwODM0LCJleHAiOjE3MDE4NjExMzR9.HMU_YVwvhNz559KqqZnqr0zbVcDEUpZIliHMgoje_Ew";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:8:"new.docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"4215029195";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiI0MjE1MDI5MTk1Iiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjowLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODYwODM1LCJleHAiOjE3MDE4NjExMzV9.72iVP955VoJGXfd_Z1SmpQy2jJ50trD7tadZOqaRna4";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (3).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":11:{s:3:"key";s:10:"3762725381";s:6:"status";i:2;s:3:"url";s:143:"http://192.168.1.35/cache/files/data/3762725381_1396/output.docx/output.docx?md5=sDIqpWE4gpkdND__RQmohg&expires=1701861742&filename=output.docx";s:10:"changesurl";s:143:"http://192.168.1.35/cache/files/data/3762725381_1396/changes.zip/changes.zip?md5=skxETJfHLPEcXSsvBwEsug&expires=1701861742&filename=changes.zip";s:7:"history";O:8:"stdClass":2:{s:13:"serverVersion";s:5:"7.5.1";s:7:"changes";a:1:{i:0;O:8:"stdClass":2:{s:7:"created";s:19:"2023-12-06 11:05:41";s:4:"user";O:8:"stdClass":2:{s:2:"id";s:5:"uid-1";s:4:"name";s:10:"John Smith";}}}}s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:8:"lastsave";s:24:"2023-12-06T11:05:43.000Z";s:11:"notmodified";b:0;s:5:"token";s:927:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIzNzYyNzI1MzgxIiwic3RhdHVzIjoyLCJ1cmwiOiJodHRwOi8vMTkyLjE2OC4xLjM1L2NhY2hlL2ZpbGVzL2RhdGEvMzc2MjcyNTM4MV8xMzk2L291dHB1dC5kb2N4L291dHB1dC5kb2N4P21kNT1zRElxcFdFNGdwa2RORF9fUlFtb2hnJmV4cGlyZXM9MTcwMTg2MTc0MiZmaWxlbmFtZT1vdXRwdXQuZG9jeCIsImNoYW5nZXN1cmwiOiJodHRwOi8vMTkyLjE2OC4xLjM1L2NhY2hlL2ZpbGVzL2RhdGEvMzc2MjcyNTM4MV8xMzk2L2NoYW5nZXMuemlwL2NoYW5nZXMuemlwP21kNT1za3hFVEpmSExQRWNYU3N2QndFc3VnJmV4cGlyZXM9MTcwMTg2MTc0MiZmaWxlbmFtZT1jaGFuZ2VzLnppcCIsImhpc3RvcnkiOnsic2VydmVyVmVyc2lvbiI6IjcuNS4xIiwiY2hhbmdlcyI6W3siY3JlYXRlZCI6IjIwMjMtMTItMDYgMTE6MDU6NDEiLCJ1c2VyIjp7ImlkIjoidWlkLTEiLCJuYW1lIjoiSm9obiBTbWl0aCJ9fV19LCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjowLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwibGFzdHNhdmUiOiIyMDIzLTEyLTA2VDExOjA1OjQzLjAwMFoiLCJub3Rtb2RpZmllZCI6ZmFsc2UsImZpbGV0eXBlIjoiZG9jeCIsImlhdCI6MTcwMTg2MDg0MSwiZXhwIjoxNzAxODYxMTQxfQ.jRdQwr85shr-NshDIea5KB16EjM_OQpmomVRgRODtnQ";s:8:"filetype";s:4:"docx";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 2
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (3).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"2317289194";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIyMzE3Mjg5MTk0Iiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjoxLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODYzODg5LCJleHAiOjE3MDE4NjQxODl9.ogELDgOn7fd1YSR5GvGOxevJsXVr1ZnL5iUgNhvMU5A";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:8:"new.docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":11:{s:3:"key";s:10:"4215029195";s:6:"status";i:2;s:3:"url";s:142:"http://192.168.1.35/cache/files/data/4215029195_885/output.docx/output.docx?md5=WQpjgBewsE3T0yI0sCrycw&expires=1701865407&filename=output.docx";s:10:"changesurl";s:142:"http://192.168.1.35/cache/files/data/4215029195_885/changes.zip/changes.zip?md5=CvU325E7H_ZhdNXJQEGLSw&expires=1701865407&filename=changes.zip";s:7:"history";O:8:"stdClass":2:{s:13:"serverVersion";s:5:"7.5.1";s:7:"changes";a:1:{i:0;O:8:"stdClass":2:{s:7:"created";s:19:"2023-12-06 10:56:42";s:4:"user";O:8:"stdClass":2:{s:2:"id";s:5:"uid-1";s:4:"name";s:10:"John Smith";}}}}s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:8:"lastsave";s:24:"2023-12-06T10:56:43.000Z";s:11:"notmodified";b:0;s:5:"token";s:924:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiI0MjE1MDI5MTk1Iiwic3RhdHVzIjoyLCJ1cmwiOiJodHRwOi8vMTkyLjE2OC4xLjM1L2NhY2hlL2ZpbGVzL2RhdGEvNDIxNTAyOTE5NV84ODUvb3V0cHV0LmRvY3gvb3V0cHV0LmRvY3g_bWQ1PVdRcGpnQmV3c0UzVDB5STBzQ3J5Y3cmZXhwaXJlcz0xNzAxODY1NDA3JmZpbGVuYW1lPW91dHB1dC5kb2N4IiwiY2hhbmdlc3VybCI6Imh0dHA6Ly8xOTIuMTY4LjEuMzUvY2FjaGUvZmlsZXMvZGF0YS80MjE1MDI5MTk1Xzg4NS9jaGFuZ2VzLnppcC9jaGFuZ2VzLnppcD9tZDU9Q3ZVMzI1RTdIX1poZE5YSlFFR0xTdyZleHBpcmVzPTE3MDE4NjU0MDcmZmlsZW5hbWU9Y2hhbmdlcy56aXAiLCJoaXN0b3J5Ijp7InNlcnZlclZlcnNpb24iOiI3LjUuMSIsImNoYW5nZXMiOlt7ImNyZWF0ZWQiOiIyMDIzLTEyLTA2IDEwOjU2OjQyIiwidXNlciI6eyJpZCI6InVpZC0xIiwibmFtZSI6IkpvaG4gU21pdGgifX1dfSwidXNlcnMiOlsidWlkLTEiXSwiYWN0aW9ucyI6W3sidHlwZSI6MCwidXNlcmlkIjoidWlkLTEifV0sImxhc3RzYXZlIjoiMjAyMy0xMi0wNlQxMDo1Njo0My4wMDBaIiwibm90bW9kaWZpZWQiOmZhbHNlLCJmaWxldHlwZSI6ImRvY3giLCJpYXQiOjE3MDE4NjQ1MDYsImV4cCI6MTcwMTg2NDgwNn0.ykNTPmyOubUeOpgaW6VYSp9UNMClmYWxw9OhWsQA-nY";s:8:"filetype";s:4:"docx";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 2
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (4).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"2474318168";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIyNDc0MzE4MTY4Iiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjoxLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODY0ODY0LCJleHAiOjE3MDE4NjUxNjR9.80Ew9UKmy_Pz9vZb4Czb9KwNIgKXcVqZPg7DZcPtDMs";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:8:"new.xlsx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:9:"261156805";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:244:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIyNjExNTY4MDUiLCJzdGF0dXMiOjEsInVzZXJzIjpbInVpZC0xIl0sImFjdGlvbnMiOlt7InR5cGUiOjEsInVzZXJpZCI6InVpZC0xIn1dLCJpYXQiOjE3MDE4NjQ4ODYsImV4cCI6MTcwMTg2NTE4Nn0.IM7oC3rSbcOmexJOm4vrabIVe8PENq617ItArOCHUvg";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (3).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":4:{s:3:"key";s:10:"2317289194";s:6:"status";i:4;s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:221:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIyMzE3Mjg5MTk0Iiwic3RhdHVzIjo0LCJhY3Rpb25zIjpbeyJ0eXBlIjowLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODY1MDY4LCJleHAiOjE3MDE4NjUzNjh9.6ZfppTYvvOXJyce_sz3_70njPEMg2h027T9uN1bRwcY";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 4
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (4).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":4:{s:3:"key";s:10:"2474318168";s:6:"status";i:4;s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:221:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIyNDc0MzE4MTY4Iiwic3RhdHVzIjo0LCJhY3Rpb25zIjpbeyJ0eXBlIjowLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODY1MDczLCJleHAiOjE3MDE4NjUzNzN9.YycEfwq0NEYnemH1x8YoeTENprLWRjZmaQnfTyQntkQ";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 4
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:8:"new.xlsx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":4:{s:3:"key";s:9:"261156805";s:6:"status";i:4;s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:220:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIyNjExNTY4MDUiLCJzdGF0dXMiOjQsImFjdGlvbnMiOlt7InR5cGUiOjAsInVzZXJpZCI6InVpZC0xIn1dLCJpYXQiOjE3MDE4NjUwNzUsImV4cCI6MTcwMTg2NTM3NX0.VHVH4YtmbdWYijmdsmq3WrtxY_Os9m-MpdLRLSiGjQ0";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 4
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:8:"new.pptx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"2806251798";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIyODA2MjUxNzk4Iiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjoxLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODY1MDg2LCJleHAiOjE3MDE4NjUzODZ9.nges_YMQxMKgpcHuZo1rf5hVyVAPvhVgk77RglOgWGs";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:8:"new.pptx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":4:{s:3:"key";s:10:"2806251798";s:6:"status";i:4;s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:221:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIyODA2MjUxNzk4Iiwic3RhdHVzIjo0LCJhY3Rpb25zIjpbeyJ0eXBlIjowLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODY4ODIwLCJleHAiOjE3MDE4NjkxMjB9.HlR6tHRyuNQUPj-aOa8tpXGMv7sWuTPDPzhcM63N1W8";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 4
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (1).xlsx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"4092504326";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiI0MDkyNTA0MzI2Iiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjoxLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODcwOTk5LCJleHAiOjE3MDE4NzEyOTl9.7A7-hdR1iW2vQCjHO-CUZfw_A7BTM_SX1D-ONmFrE9w";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (1).xlsx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":4:{s:3:"key";s:10:"4092504326";s:6:"status";i:4;s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:221:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiI0MDkyNTA0MzI2Iiwic3RhdHVzIjo0LCJhY3Rpb25zIjpbeyJ0eXBlIjowLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODcxMDA0LCJleHAiOjE3MDE4NzEzMDR9.uQXD0r-jVc4AZwNLE94oxOTyd5hL1YLmGl9xRF__sjo";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 4
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (5).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"1296923957";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIxMjk2OTIzOTU3Iiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjoxLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODczMDUyLCJleHAiOjE3MDE4NzMzNTJ9.5tXyH_vhr3mmqQHDRpC4K4sboiPWeKGSDLCMisdOlzM";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (5).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":4:{s:3:"key";s:10:"1296923957";s:6:"status";i:4;s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:221:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIxMjk2OTIzOTU3Iiwic3RhdHVzIjo0LCJhY3Rpb25zIjpbeyJ0eXBlIjowLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAxODc2NzQwLCJleHAiOjE3MDE4NzcwNDB9.k6y47sHvTFERwBEWbQGwJLVmo8FtjL_QHfPU4N8QqwI";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 4
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (7).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"1023856148";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIxMDIzODU2MTQ4Iiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjoxLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAyMDIxMTA2LCJleHAiOjE3MDIwMjE0MDZ9.BcdSSFDbRmiK_-ly_PsAg3vxU5_inDA_q1JBYOC74A4";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (2).xlsx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"3158702544";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIzMTU4NzAyNTQ0Iiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjoxLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAyMDIxMTIzLCJleHAiOjE3MDIwMjE0MjN9.TTvn13X9Axmtpj2mAhRoJZX3N2-q52rNGe9gRTMG0OI";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (2).xlsx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":4:{s:3:"key";s:10:"3158702544";s:6:"status";i:4;s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:221:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIzMTU4NzAyNTQ0Iiwic3RhdHVzIjo0LCJhY3Rpb25zIjpbeyJ0eXBlIjowLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAyMDIxMTI3LCJleHAiOjE3MDIwMjE0Mjd9.4Xhd0QVjcfXHDotnKC13a0hF4DX7fvHjvN2j2mIKXj8";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 4
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (8).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"1390006016";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIxMzkwMDA2MDE2Iiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjoxLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAyMDIxMTMxLCJleHAiOjE3MDIwMjE0MzF9.8sTXaeJFgJ4TfYQSpk6Is6VvJJ-PlKYZjgdUtfFtUCw";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (8).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":4:{s:3:"key";s:10:"1390006016";s:6:"status";i:4;s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:221:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIxMzkwMDA2MDE2Iiwic3RhdHVzIjo0LCJhY3Rpb25zIjpbeyJ0eXBlIjowLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAyMDIxNjMyLCJleHAiOjE3MDIwMjE5MzJ9.Ezk-4o5beemuahjDcsF3wSqhXoys0m-ezn46KQ43_eg";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 4
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (8).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"1390006016";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIxMzkwMDA2MDE2Iiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjoxLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAyMDIxNjM0LCJleHAiOjE3MDIwMjE5MzR9.j7PPgp8L6wk5RwrzYpdBISNwq7aecj1CjgGuMrggIng";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (8).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":4:{s:3:"key";s:10:"1390006016";s:6:"status";i:4;s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:221:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIxMzkwMDA2MDE2Iiwic3RhdHVzIjo0LCJhY3Rpb25zIjpbeyJ0eXBlIjowLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAyMDIxNjQwLCJleHAiOjE3MDIwMjE5NDB9.qR5syS4plJQ7HYqmft_SZnh_3ZYMH2UEvGu8L2iKVy0";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 4
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (8).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"1390006016";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIxMzkwMDA2MDE2Iiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjoxLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAyMDIxNjQxLCJleHAiOjE3MDIwMjE5NDF9.oXHxwEOV6cXdIDurcQ68_amP8kirEffEw7l4iRnbpAg";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (8).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":4:{s:3:"key";s:10:"1390006016";s:6:"status";i:4;s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:221:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIxMzkwMDA2MDE2Iiwic3RhdHVzIjo0LCJhY3Rpb25zIjpbeyJ0eXBlIjowLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAyMDIxNzE3LCJleHAiOjE3MDIwMjIwMTd9.I8NLh8uynh_eEp4AWUUU3t-9y-cpKZ2Vc2UVHJRHZ4U";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 4
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (8).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":5:{s:3:"key";s:10:"1390006016";s:6:"status";i:1;s:5:"users";a:1:{i:0;s:5:"uid-1";}s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:1;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:245:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIxMzkwMDA2MDE2Iiwic3RhdHVzIjoxLCJ1c2VycyI6WyJ1aWQtMSJdLCJhY3Rpb25zIjpbeyJ0eXBlIjoxLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAyMDIxNzE4LCJleHAiOjE3MDIwMjIwMTh9.Iyf-YKxYNQ7aREebmk0E0boQkZ0-erT18NiFHIORbKc";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 1
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (8).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":4:{s:3:"key";s:10:"1390006016";s:6:"status";i:4;s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:221:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIxMzkwMDA2MDE2Iiwic3RhdHVzIjo0LCJhY3Rpb25zIjpbeyJ0eXBlIjowLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAyMDIxNzQ4LCJleHAiOjE3MDIwMjIwNDh9.aY8QrmuZ1f0NmzvcQeo_BPv74fqRw286_ngXWixs-UE";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 4
+Track RESULT: a:1:{s:5:"error";i:0;}
+Track START
+   _GET params: a:2:{s:8:"fileName";s:12:"new (7).docx";s:11:"userAddress";s:7:"Storage";}
+   InputStream data: O:8:"stdClass":4:{s:3:"key";s:10:"1023856148";s:6:"status";i:4;s:7:"actions";a:1:{i:0;O:8:"stdClass":2:{s:4:"type";i:0;s:6:"userid";s:5:"uid-1";}}s:5:"token";s:221:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIxMDIzODU2MTQ4Iiwic3RhdHVzIjo0LCJhY3Rpb25zIjpbeyJ0eXBlIjowLCJ1c2VyaWQiOiJ1aWQtMSJ9XSwiaWF0IjoxNzAyMDI0ODIyLCJleHAiOjE3MDIwMjUxMjJ9.YiXXu91ma88jJBsxDze3vaRg16CpxJbxR3DF47WrIJM";}
+   jwt enabled, checking tokens
+   jwt in header
+   CommandRequest status: 4
+Track RESULT: a:1:{s:5:"error";i:0;}
